@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+.header{
+    padding: 17px;
+    font-family: Lato;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.header__link{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header__item{
+    margin-right: 70px;
+}
+
+.btn{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #01996D;
+    padding: 13px 50px;
+    border-radius: 4px;
+    border: none;
+}
+.btn_white{
+    color: black;
+    background-color: white;
+}
+.main{
+    background: url('./BG.png') no-repeat center center / cover;
+    height: 90vh;
+    padding-top: 170px;
+}
+
+.main__info{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.main__title{
+    color: #01996D;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    width: 440px;
+    height: 148px;
+}
+
+
+.main__text{
+    color: #484848;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 420px;
+    height: 123px;
+}
+
+/*Steps*/
+
+.steps{
+    padding: 169px 0 255px 0;
+}
+
+
+
+.steps__subtitle{
+    color: #424242;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.steps_title{
+    color: #01996D;
+    font-weight: 900;
+    font-size: 50px;
+    max-width: 584px;
+}
+
+.steps_text{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 190px;
+    margin-bottom: 60px;
+}
+
+.steps__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__card-title{
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.steps__card{
+    min-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__pic{
+background-repeat: 12px;
+}
+
+.let{
+    background-color: #245852;
+    height: 150vh;
+    padding-top: 170px;
+    
+}
+
+.let__info{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.let__title{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    width: 580px;
+    height: 148px;
+}
+
+
+.let__text{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 420px;
+    height: 123px;
+}
+
+.let__pic{
+    margin-left: 550px;
+    display: flex;
+    position: absolute;
+    top: 2500px;
+}
